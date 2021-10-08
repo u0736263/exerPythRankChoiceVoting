@@ -166,7 +166,7 @@ for i in range (0,ballots_count):
 
 * Print a list of the candidates using the format `The candidates are: ` and a list of the candidates.
 * Print the total number of ballots using the format `total ballots: [value]`.
-* Determin how many votes are needed to win and print the result using the format `needed to win: [value]`.
+* Determin how many votes are needed to win and assign that number to a variable named `majority` and print the result using the format `needed to win: [value]`.
 
 <details>
   <summary>Sample code</summary>
@@ -197,10 +197,14 @@ print("needed to win: ", majority, '\n\n\n')
 * Append the list `ballots` into `adjusted_ballots`.
 * Create a while loop which runs while the variable `winner` is empty.
   * Count the ballots.
-    * lower
+    * Hint: `results = counts(adjusted_ballots[(round-1)])`
   * Print the results for the round.
+    * Hint: `report = create_report(results)`
   * Check to see if a majority has been reached. If it has, assign the winner.
+    * Hint: `winner = key_list(results, max(results.values()))`
   * If there is no winner, remove candidates with low votes.
+    * Hint: `adjusted = drop_low(adjusted_ballots[(round-1)],remove_list)`
+  * Add the latest round of adjusted ballots to the `adjusted_ballots` list.
 * Print the winner using the format `The winner is: ` and the name of the winner. 
 
 <details>
