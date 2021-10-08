@@ -57,7 +57,7 @@ for i in range (0,ballots_count):
 </details>
 
 
-### function counts()
+### Create function: counts()
 
 * Create a function called `counts` which accepts a parameter called `ballotsList`.
 * This function will accept a list of ballots and calculate counts from the first choice on each ballot and store count totals for candidates in a dictionary using the name of the candidate as the key and the number of votes as the value.
