@@ -2,4 +2,4 @@
 
 ## Golum for President
 
-![Gollum for President Issues](/images/GollumPresidentIssues.jpg)
+<span align="center">![Gollum for President Issues](/images/GollumPresidentIssues.jpg)</span>
