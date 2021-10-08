@@ -26,6 +26,8 @@ Create a list called `candidates` which has the names of individuals being consi
   
   ```Python
   candidates = ['Aragorn','Arwen','Bilbo','Elrond','Faramir','Frodo','Gandalf','Gimli','Gollum', 'Legolas','Saruman']
+  for name in candidates:
+      print(name)
   ```
   
 </details>
