@@ -197,7 +197,7 @@ print("needed to win: ", majority, '\n\n\n')
 * Append the list `ballots` into `adjusted_ballots`.
 * Create a while loop which runs while the variable `winner` is empty.
   * Count the ballots.
-     * lower
+    * lower
   * Print the results for the round.
   * Check to see if a majority has been reached. If it has, assign the winner.
   * If there is no winner, remove candidates with low votes.
