@@ -7,7 +7,7 @@ The residents of Middle Earth have seen a lot about ranked-choice voting in the 
 * https://utgop.org/rcv/
 * https://politics.stackexchange.com/questions/9749/clarification-on-ranked-choice-voting-tie-breaker-algorithm
 
-## Golum for President
+## Gollum for President
 
 ![Gollum for President Issues](/images/GollumPresident1.jpg)
 
