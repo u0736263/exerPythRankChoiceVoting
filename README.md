@@ -18,7 +18,7 @@ The residents of Middle Earth have seen a lot about ranked-choice voting in the 
 Write a Python program to simulate ballots for an election and tabulate the results to find the winner of a simulated election using ranked-choice voting algorithms.
 
 
-### List of candidates
+### Create list of candidates: `candidates`
 
 * Create a list called `candidates` which has the names of individuals being considered for office.
 
@@ -57,7 +57,7 @@ for i in range (0,ballots_count):
 </details>
 
 
-### Create function: counts()
+### Create function: `counts()`
 
 * Create a function called `counts` which accepts a parameter called `ballotsList`.
 * This function will accept a list of ballots and calculate counts from the first choice on each ballot and store count totals for candidates in a dictionary using the name of the candidate as the key and the number of votes as the value.
