@@ -24,7 +24,7 @@ Create a list called `candidates` which has the names of individuals being consi
 <details>
   <summary>Sample code</summary>
   
-  ```
+  ```python
   candidates = ['Aragorn','Arwen','Bilbo','Elrond','Faramir','Frodo','Gandalf','Gimli','Gollum', 'Legolas','Saruman']
   ```
   
