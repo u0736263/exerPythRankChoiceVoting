@@ -137,3 +137,29 @@ for i in range (0,ballots_count):
 </details>
 
 
+### Create function: `drop_low()`
+
+* Create a function called `drop_low` which accepts parameters called `ballots_list` and `remove_list`.
+* This function will accept a list of ballots and a list of names to remove from ballots, create a copy of the list of ballots, and remove names on `remove_list` from the copy of `ballots_list`.
+* Import the `copy` package.
+  * Create a deep copy of `ballots_list` called `copy_list`. (A deep copy of a list allows you to make changes to the copy without affecting the original.)
+  * Loop through the ballots in `copy_list` and remove each name in `remove_list` from the ballots in `copy_list`.
+* return the list `copy_list`.
+
+<details>
+  <summary>Sample code</summary>
+  
+  ```Python
+  def drop_low(ballots_list,remove_list):
+    copy_list = copy.deepcopy(ballots_list)
+    for ballot in copy_list:
+        for item in remove_list:
+            if item in ballot:
+                ballot.remove(item)
+        #print(ballot)
+    return copy_list
+  ```
+  
+</details>
+
+
