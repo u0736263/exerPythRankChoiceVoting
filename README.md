@@ -55,3 +55,35 @@ for i in range (0,ballots_count):
 ```
   
 </details>
+
+
+### function counts()
+
+* Create a function called `counts` which accepts a parameter called `ballotsList`.
+* This function will accept a list of ballots and calculate counts from the first choice on each ballot and store count totals for candidates in a dictionary using the name of the candidate as the key and the number of votes as the value.
+* Have the function create an empty dictionary called `results`.
+* Loop through the ballots in the list `ballotsList`.
+  * If there is no ballot, continue to the next step.
+  * If the first name in the ballot is NOT found in the dictionary `results`, add the name to the dictionary and set the count to 1.
+  * If the first name in the ballot is found in the dictionary `results`, increment the count for that name up by 1.
+* return the dictionary `results`.
+
+<details>
+  <summary>Sample code</summary>
+  
+  ```Python
+  def counts(ballotsList):
+    results = {}
+    for ballot in ballotsList:
+        if not ballot:
+            continue
+        elif ballot[0] not in results:
+            results[ballot[0]] = 1
+        else:
+            results[ballot[0]] += 1
+    return results
+  ```
+  
+</details>
+
+
