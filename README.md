@@ -87,3 +87,53 @@ for i in range (0,ballots_count):
 </details>
 
 
+### Create function: `create_report()`
+
+* Create a function called `create_report` which accepts a parameter called `dict`.
+* This function will accept a dictionary with candidate names as keys and counts of votes for each candidate as values and generate text of a summary report for some select results.
+* Have the function include text for the value for the lowest count using the format `low count: [value]` on a separate line.
+* Have the function include text for a list of the names that have the low count using the format `remove: [list]` on a separate line.
+* Have the function include text for the value for the highest count using the format `high count: [value]` on a separate line.
+* Have the function include text for a list of the names that have the high count using the format `lead: [list]` on a separate line.
+* return the text for the report.
+
+<details>
+  <summary>Sample code</summary>
+  
+  ```Python
+  def create_report(dict):
+    text = ''
+    text += 'low count: ' + str(min(dict.values())) + '\n'
+    text += 'remove: ' + str(key_list(dict, min(dict.values()))) + '\n'
+    text += 'high count: ' + str(max(dict.values())) + '\n'
+    text += 'lead: ' + str(key_list(dict, max(dict.values()))) + '\n'
+    return text
+  ```
+  
+</details>
+
+
+### Create function: `key_list()`
+
+* Create a function called `key_list` which accepts parameters called `dict` and `num`.
+* This function will accept a dictionary with candidate names as keys and counts of votes for each candidate and a number value and generate a list of names from the dictionary keys which have a value which matches the number submitted as a parameter.
+  * Create an empty list called `names`.
+  * Loop through the dictionary keys and values.
+  * If the value for a key matches the value for `num`, add the dictionary key to the list `names`.
+* return the list `names`.
+
+<details>
+  <summary>Sample code</summary>
+  
+  ```Python
+  def key_list(dict, num):
+    names = []
+    for key, value in dict.items():
+        if value == num:
+            names.append(key)
+    return names
+  ```
+  
+</details>
+
+
