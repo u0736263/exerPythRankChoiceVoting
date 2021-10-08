@@ -1,4 +1,4 @@
-# Python Rank Choice Voting Assignment
+# Python Ranked-Choice Voting Assignment
 
 The residents of Middle Earth have seen a lot about ranked-choice voting in the news lately and have decided to hold elections for the newly created office of President of Middle Earth.
 
