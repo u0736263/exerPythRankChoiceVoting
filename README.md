@@ -32,7 +32,7 @@ Write a Python program to simulate ballots for an election and tabulate the resu
 </details>
 
 
-### Simulate ballots
+### Create list of simulated ballots: `ballots`
 
 * Import the `random` package.
 * Create an empty list called `ballots`.
