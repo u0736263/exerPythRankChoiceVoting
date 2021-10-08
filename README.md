@@ -150,13 +150,12 @@ for i in range (0,ballots_count):
   <summary>Sample code</summary>
   
   ```Python
-  def drop_low(ballots_list,remove_list):
+  def drop_low(ballots_list, remove_list):
     copy_list = copy.deepcopy(ballots_list)
     for ballot in copy_list:
         for item in remove_list:
             if item in ballot:
                 ballot.remove(item)
-        #print(ballot)
     return copy_list
   ```
   
