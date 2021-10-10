@@ -15,6 +15,8 @@ The residents of Middle Earth have seen a lot about ranked-choice voting in the 
 
 ## Ranked-choice Voting Simulator
 
+I created a video to discuss some of the sections of this code. https://youtu.be/aMunaEqzrz8 
+
 Write a Python program to simulate ballots for an election and tabulate the results to find the winner of a simulated election using ranked-choice voting algorithms.
 
 A note about the sample code presented in this assignment: This is one way of accomplishing this task. It's not guaranteed to be the best way or most efficient way. This is simply an example of trying to break a problem down into steps and coding each step. If you can come up with your own solution, try it out. I'd love to see it.
